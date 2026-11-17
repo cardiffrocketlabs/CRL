@@ -52,3 +52,14 @@
 
 /* Place the footer rocket beside the name. */
 .footer-brand{display:flex;align-items:center;gap:24px}.footer-brand h2{min-width:0}.footer-brand>a{flex-shrink:0}.footer-brand .footer-logo{margin:0;width:clamp(60px,7vw,100px);height:auto}@media(max-width:500px){.footer-brand{gap:16px}.footer-brand h2{font-size:clamp(28px,8vw,42px)}}
+
+/* QR codes below the footer email link. */
+.footer-qr{width:240px;max-width:100%;height:auto;object-fit:contain;margin-top:12px}
+
+/* Keep sound controls visible above the native video controls. */
+.video-sound-toggle{position:absolute;right:24px;bottom:72px;z-index:1;min-height:44px;padding:12px 16px;border:1px solid var(--ink);background:#080808e6;color:var(--ink);font-size:11px;font-weight:700;letter-spacing:.1em}.video-sound-toggle:hover{background:var(--ink);color:#080808}
+
+/* Draig's final engineering details and test photo. */
+.draig-design-details{display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);gap:36px;align-items:center}.draig-design-details>img{width:280px;max-width:100%;height:auto;object-fit:contain;justify-self:center}.draig-final-photo{width:100%}.draig-hot-fire-photo{width:100%;height:auto;object-fit:contain}@media(max-width:800px){.draig-design-details{grid-template-columns:1fr;gap:24px}}
+
+.bowser-legacy .narrow-copy{margin-left:0;margin-right:auto}
