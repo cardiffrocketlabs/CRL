@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/cardiff-rocket-labs-site/',
+  base: '/CRL/',
   build: { outDir: 'docs' },
 });
